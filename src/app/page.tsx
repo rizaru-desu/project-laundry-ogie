@@ -29,7 +29,7 @@ export default function Page() {
             labelCol={{ span: 8 }}
             wrapperCol={{ span: 16 }}
             autoComplete="off"
-            onFinish={(value) => router.replace("/pages/dashboard")}
+            onFinish={() => router.replace("/pages/dashboard")}
           >
             <Form.Item<FieldType>
               label="Emai or Username"

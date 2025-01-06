@@ -59,11 +59,6 @@ export default function Page() {
     setIsModalOpen(true);
   };
 
-  const handleSubmit = () => {
-    setIsModalOpen(false);
-    form.resetFields();
-  };
-
   const handleCancel = () => {
     setIsModalOpen(false);
     form.resetFields();
